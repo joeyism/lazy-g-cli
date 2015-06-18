@@ -2,6 +2,8 @@
 'use strict';
 var find = require('./lib/find');
 var exec = require('./lib/exec');
+require('colors');
+
 var params = process.argv;
 params.splice(0,2);
 
