@@ -26,6 +26,10 @@ is the same as running
 
 ### Versions
 
+**1.0.1**
+* Updated README with param information
+
+
 **1.0.0**
 * First working commit
 
