@@ -1,0 +1,39 @@
+{
+  "name": "lazy-g-cli",
+  "version": "1.0.0",
+  "description": "Because you are too lazy to type \"gulp\" or \"grunt\" sometimes",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha"
+  },
+  "bin": {
+    "g": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joeyism/lazy-g-cli.git"
+  },
+  "keywords": [
+    "grunt",
+    "gulp",
+    "cli",
+    "shorthand",
+    "lazy",
+    "g"
+  ],
+  "author": "Joey Sham <sham.joey@gmail.com> (http://www.joeyism.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joeyism/lazy-g-cli/issues"
+  },
+  "homepage": "https://github.com/joeyism/lazy-g-cli#readme",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "promise": "^7.0.3"
+  },
+  "devDependencies": {
+    "chai": "^3.0.0",
+    "istanbul": "^0.3.15",
+    "mockery": "^1.4.0"
+  }
+}
