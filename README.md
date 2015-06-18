@@ -14,6 +14,16 @@ Whether you need grunt or gulp, just run
 
     > g
 
+#### With Parameters
+
+Running with parameteres is the same. That means running
+
+    > g [param]
+
+is the same as running
+
+    > grunt/gulp [param]
+
 ### Versions
 
 **1.0.0**
