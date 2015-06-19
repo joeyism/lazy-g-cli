@@ -27,6 +27,8 @@ is the same as running
     > grunt/gulp [param]
 
 ### Versions
+**1.0.2**
+* Fixed bug where it didn't work on Windows
 
 **1.0.1**
 * Updated README with param information
