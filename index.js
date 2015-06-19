@@ -7,8 +7,13 @@ require('colors');
 var params = process.argv;
 params.splice(0,2);
 
-find.type().then(function(command){
-    
+find.simplified(params).then(function(newParams){
+
+    params = newParams;
+    return find.type();
+
+}).then(function(command){
+
     return exec(command, params);
 
 }).catch(function(err){

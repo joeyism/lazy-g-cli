@@ -102,4 +102,30 @@ describe('find', function(){
         });
     
     });
+
+    describe('simplified', function(){
+    
+        beforeEach(function(done){
+            mockery.enable({
+                warnOnReplace: false,
+                warnOnUnregistered: false,
+                useCleanCache: true
+            });
+            done();
+        });
+
+        afterEach(function(done){
+            mockery.resetCache();
+            mockery.deregisterAll();
+            done();
+        }); 
+        
+        it('should correctly translate shorthanded letters to full task names', function(done){
+            find = require('../lib/find');
+            find.simplified(['t']).then(function(params){
+                expect(params).to.deep.equal(['test']);
+                done();
+            });
+        });
+    });
 });
