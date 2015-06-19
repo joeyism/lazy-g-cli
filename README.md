@@ -26,7 +26,22 @@ is the same as running
 
     > grunt/gulp [param]
 
+**Shorthanded Parameters**
+
+It is also possible to run parameters with shorthand, i.e. using only 1 letter. The letters are matched as such
+    
+    t = test
+
+    d = dist
+
+This means running *grunt/gulp test* can be done by running
+
+    > g t
+
 ### Versions
+**1.1.0**
+* Added shorthand
+
 **1.0.2**
 * Fixed bug where it didn't work on Windows
 
