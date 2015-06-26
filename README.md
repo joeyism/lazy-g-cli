@@ -39,6 +39,9 @@ This means running *grunt/gulp test* can be done by running
     > g t
 
 ### Versions
+**1.1.2**
+* Added 'inherit' so windows can show color
+
 **1.1.0**
 * Added shorthand
 
@@ -47,7 +50,6 @@ This means running *grunt/gulp test* can be done by running
 
 **1.0.1**
 * Updated README with param information
-
 
 **1.0.0**
 * First working commit
