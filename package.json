@@ -1,6 +1,6 @@
 {
   "name": "lazy-g-cli",
-  "version": "1.1.2",
+  "version": "1.2.0",
   "description": "Because you are too lazy to type \"gulp\" or \"grunt\" sometimes",
   "main": "index.js",
   "scripts": {
