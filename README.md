@@ -38,7 +38,16 @@ This means running *grunt/gulp test* can be done by running
 
     > g t
 
+It is also possible to run the task by running
+
+    > gt
+
+so not even the space is required. For extra laziness.
+
 ### Versions
+**1.2.0**
+* Added new shorthand 
+
 **1.1.2**
 * Added 'inherit' so windows can show color
 

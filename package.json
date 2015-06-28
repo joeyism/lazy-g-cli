@@ -7,7 +7,9 @@
     "test": "node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha"
   },
   "bin": {
-    "g": "index.js"
+    "g": "index.js",
+    "gd": "shortcuts/gd.js",
+    "gt": "shortcuts/gt.js"
   },
   "repository": {
     "type": "git",
